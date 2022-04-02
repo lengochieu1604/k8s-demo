@@ -1,7 +1,7 @@
 # k8s-demo
 # Kubernetes Demo
 
-#kubectl apply commands in order
+# **kubectl apply commands in order**
 
 kubectl apply -f mongo-secret.yaml
 
@@ -11,7 +11,8 @@ kubectl apply -f mongo-configmap.yaml
 
 kubectl apply -f mongo-express-deployment.yaml
 
-#kubectl get commands
+
+# **kubectl get commands**
 
 kubectl get pod
 
@@ -25,7 +26,7 @@ kubectl get secret
 
 kubectl get all | grep mongodb
 
-#kubectl debugging commands
+# **kubectl debugging commands**
 
 kubectl describe pod mongodb-deployment-xxxxxx
 
@@ -33,6 +34,6 @@ kubectl describe service mongodb-express-service
 
 kubectl logs mongodb-express-xxxxxx
 
-#give a URL to external service in minikube
+# **give a URL to external service in minikube**
 
 minikube service mongo-express-service
