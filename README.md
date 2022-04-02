@@ -1,5 +1,4 @@
-# k8s-demo
-# Kubernetes Demo
+# KUBENETES DEMO
 
 # **kubectl apply commands in order**
 
